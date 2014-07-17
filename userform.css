@@ -1,0 +1,15 @@
+#user-list input.edit{
+  display: none;
+}
+
+#user-list .editing label{
+  display: none;
+}
+
+#user-list .editing input.edit {
+  display: inline;
+}
+
+.hidden{
+  display: none;
+}
