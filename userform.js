@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var app = {};
 
 app.Users = Backbone.Model.extend({
@@ -116,3 +117,4 @@ app.AppView = Backbone.View.extend({
 });
 
 app.appView = new app.AppView();
+});
